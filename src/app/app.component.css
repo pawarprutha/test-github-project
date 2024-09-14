@@ -1,0 +1,48 @@
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #f2f2f2;
+    transition: 0.4s;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-body {
+     padding: 3%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+}
+  
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+tr:nth-child(even){background-color: #f2f2f2;}
+  
+tr:hover {background-color: #ddd;}
+  
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #3f3e40;
+    color: white;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch
+}
